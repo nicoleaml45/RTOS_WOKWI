@@ -4,7 +4,13 @@
   "editor": "wokwi",
   "parts": [
     { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -9.6, "left": -100.76, "attrs": {} },
-    { "type": "wokwi-led", "id": "led1", "top": 63.6, "left": 90.2, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 63.6,
+      "left": 90.2,
+      "attrs": { "color": "yellow" }
+    },
     { "type": "wokwi-led", "id": "led2", "top": -3.6, "left": 51.8, "attrs": { "color": "blue" } },
     {
       "type": "wokwi-resistor",
